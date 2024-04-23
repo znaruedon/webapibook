@@ -33,7 +33,7 @@ namespace WebApiBook
                 // Set up Bearer token authentication for Swagger
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
-                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: {token}\"",
                     Type = SecuritySchemeType.Http,
                     Scheme = "bearer"
                 });
